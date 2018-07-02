@@ -1,0 +1,13 @@
+---
+title: "Portal Halley de Educação Atuarial"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+[![Build Status](https://travis-ci.org/fernandomayer/ce074.svg?branch=master)](https://travis-ci.org/fernandomayer/ce074)
+

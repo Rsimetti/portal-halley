@@ -1,0 +1,224 @@
+---
+title: "Quem somos"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+#source("setup_knitr.R")
+```
+
+***
+ 
+
+Membros do projeto "Portal Halley de Educação Atuarial", da [Universidade Federal de Alfenas](https://www.unifal-mg.edu.br), em parceria com a [Liga de Ciências Atuariais](https://lcaunifal.wordpress.com) e com o [Laboratório de Risco Atuarial e Inovação](https://www.unifal-mg.edu.br/lar)
+
+***
+
+<!-- Se o endereço web ou email for o próprio texto, pode-se utilizá-lo direto entre setas. -->
+
+######Contato: Envie um e-mail para <lca.unifal@gmail.com>
+
+***
+
+<center>
+
+<!-- Imagem em HTML -->
+
+<!-- As imagens estão hospedadas no Google Photos, porém os links estão hospedados no bit.ly para deixar o código mais limpo.Se necessário trocar as imagens, basta substituir o link que está entre aspas após "src=" -->
+
+
+ <!-- ANA CAROLINA ======================================================================== --> 
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2DmRWko"/>
+
+<justify><p>
+<b>Ana Carolina Orrico e Silva</b> - Discente
+</p>
+</justify>
+
+<!-- Email em HTML. Links em Markdown -->
+<!-- Para incluir um texto com link para email, utilize html. -->
+
+<a href="mailto:carollorrico@gmail.com">E-mail</a>,  [GitHub](https://github.com/CarolOrrico), [LinkedIn](https://www.linkedin.com/in/ana-carolina-orrico-e-silva-66359212b/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- DANILO ================================================================================ -->
+
+<img align="left"  width="300px" height="300px" src="http://bit.ly/2FE5PwV"/>
+
+<b>Danilo Machado Pires</b> - Docente
+
+<a href="mailto:dmachadopires@gmail.com">E-mail</a>,  [GitHub](https://github.com/danilomachadopires),  [Lattes](http://lattes.cnpq.br/3803750382508105)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- LEONARDO ============================================================================== -->
+
+<img align="left"  width="300px" height="300px" src="http://bit.ly/2Dlq9kD"/>
+
+<b>Leonardo Henrique Costa</b> - Docente
+
+<a href="mailto:leohcosta@yahoo.com.br">E-mail</a>,  [Lattes](http://lattes.cnpq.br/6033072370650666)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- MÁRCIA ================================================================================= -->
+
+<img align="left"  width="300px" height="300px" src="http://bit.ly/2tCSTpu"/>
+
+<b>Márcia Sales Ribeiro</b> - Discente
+
+<a href="mailto:marcia-p4@hotmail.com">E-mail</a>,  [Lattes](http://lattes.cnpq.br/1589632931643422)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- MATHEUS ================================================================================ -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2Gl5dNx"/>
+
+<b>Matheus Saraiva Alcino</b>- Discente
+
+<a href="mailto:osaraivamatheus@gmail.com">E-mail</a>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- PABLO ================================================================================= -->
+
+<img align="left"  width="300px" height="300px" src="http://bit.ly/2DnjiHq"/>
+
+<b>Pablo Henrique Vieira Rabelo</b> - Discente
+
+<a href="mailto:pablorabelo@live.com">E-mail</a>,  [GitHub](https://github.com/pablorabelo), [Lattes](http://lattes.cnpq.br/0226923090121959), [LinkedIn](https://www.linkedin.com/in/pablohrabelo/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- PEDRO ================================================================================== -->
+
+<img align="left"  width="300px" height="300px" src="http://bit.ly/2FxCQP0"/>
+
+<b>Pedro Henrique Rezende Oliveira</b> - Discente
+
+<a href="mailto:pedrohenriquero@hotmail.com">E-mail</a>, [LinkedIn](https://www.linkedin.com/in/pedro-henrique-rezende-oliveira-659914133/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- POLIANA ================================================================================= -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2pbFtw3"/>
+
+<b>Poliana Maria Benelli</b> - Discente
+
+<a href="mailto:poli_benelli@hotmail.com">E-mail</a>, [LinkedIn](https://www.linkedin.com/in/poliana-benelli-41615a139/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- RAPHAELA ================================================================================= -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2FwkLRp"/>
+
+<b>Raphaela Ribeiro Siviero de Mattos</b> - Discente
+
+<a href="mailto:raphaelarsmattos@gmail.com">E-mail</a>, [LinkedIn](https://www.linkedin.com/in/raphaela-ribeiro-siviero-de-mattos-169781140/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- SABRINA =============================================================================== -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2tDPO8q"/>
+
+<b>Sabrina Ribeiro Marciano</b> - Discente
+
+<a href="mailto:ribeiro.sabrina96@gmail.com">E-mail</a>, [LinkedIn](https://www.linkedin.com/in/sabrina-ribeiro-27ab02122/)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- WALEF ================================================================================== -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2DmTUSa"/>
+
+<b>Walef Machado de Mendonça</b> - Discente
+
+<a href="mailto:walefm2@hotmail.com">E-mail</a>, [GitHub](https://github.com/walefmachado)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<!-- YAGHO ================================================================================= -->
+
+<img align="left" width="300px" height="300px" src="http://bit.ly/2DozdVF"/>
+
+<b>Yagho Lemes Carvalho</b> - Discente
+
+<a href="mailto:yagholc@hotmail.com">E-mail</a>, [GitHub](https://github.com/yagholc)
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+***

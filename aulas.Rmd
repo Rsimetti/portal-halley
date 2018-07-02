@@ -1,0 +1,35 @@
+---
+title: "Histórico das aulas do curso"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+Abaixo o histórico de atividades realizadas em classe e atividades extra
+classe aplicadas.
+
+
+```{r, eval=FALSE, include=FALSE}
+## Gera a lista com as datas de todas as aulas. O resultado do último
+## comando pode ser copiado direto para o documento
+datas.seg <- seq.Date(as.Date("2017-07-31"), as.Date("2017-11-27"),
+                      by = "week")
+datas.seg <- format.Date(datas.seg, format = "%d/%m")
+datas.qui <- seq.Date(as.Date("2017-08-03"), as.Date("2017-11-30"),
+                      by = "week")
+datas.qui <- format.Date(datas.qui, format = "%d/%m")
+cat(paste0("- **", datas.seg, "**:\n", "- **", datas.qui, "**:\n"))
+```
+
+- **Relação entre os produtos de anuidades** [Relações](PDF/Relação entre os produtos de anuidades.pdf).
+
+## Exercícios
+
+- Revisão de conhecimento. [PDF](exercicios/ex_revisao.pdf) |
+[Gabarito](exercicios/ex_revisao_GABARITO.pdf) |
+[Script](exercicios/ex_revisao_GABARITO.R)
+- Experimentos fatoriais. [PDF](exercicios/ex_fatorial.pdf)

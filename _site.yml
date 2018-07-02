@@ -1,0 +1,56 @@
+name: "Portal Halley"
+output_dir: "docs"
+exclude: ["README.md", "\\.sh", "cache", "scripts_teste"]
+output:
+  html_document:
+    theme: flatly
+    highlight: default
+    code_folding: hide
+    number_sections: false
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    includes:
+      in_header: analytics.html
+      after_body: footer.html
+navbar:
+  title: "Portal Halley"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Aulas"
+      href: aulas.html
+    - text: "Referências"
+      href: referencias.html
+    - text: "Recursos"
+      href: recursos.html
+    - text: "Materiais"
+      menu:
+      - text: "Introdução e revisão"
+      - text: "História do Seguro"
+        href: história-do-seguro.html
+      - text: "Historico Previdencia Social"
+        href: historico-previdencia-social.html
+      - text: "----------"
+      - text: "Scripts"
+      - text: "----------"
+      - text: "Experimento"
+      - text: "----------"
+      - text: "Exercícios"
+    - text: "Quem somos"
+      href: quem-somos.html
+  right:
+    - text:
+      icon: fa-facebook fa-lg
+      href: https://pt-br.facebook.com/LCA.Unifal/
+    - text:
+      icon: fa-instagram fa-lg
+      href: https://www.instagram.com/lca.unifal/
+    - text:
+      icon: fa fa-wordpress
+      href: https://lcaunifal.wordpress.com/
+    - text:
+      icon: fa-github fa-lg
+      href: https://github.com/lcaunifal
