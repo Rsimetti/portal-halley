@@ -3,8 +3,7 @@
 ## Portal Halley de educação atuarial
 
 Este repositório contém todos os arquivos
-necessários para gerar a página do portal, disponível em:
-https://portalhalley.github.io
+necessários para gerar a página do portal, disponível em: https://walefmachado.github.io/projeto-halley/ 
 
 ### Para gerar o site
 
