@@ -1,5 +1,8 @@
 # Portal Halley
 
+[![Build Status](https://travis-ci.org/walefmachado/projeto-halley.svg?branch=master)](https://travis-ci.org/walefmachado/projeto-halley)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
 ## Portal Halley de educação atuarial
 
 Este repositório contém todos os arquivos
