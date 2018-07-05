@@ -34,7 +34,9 @@ navbar:
       - text: "Historico Previdencia Social"
         href: historico-previdencia-social.html
       - text: "----------"
-      - text: "Scripts"
+      - text: "Demografia"
+      - text: "Tábuas de vida"
+        href: tabuas-mortalidade.html
       - text: "----------"
       - text: "Experimento"
       - text: "----------"
