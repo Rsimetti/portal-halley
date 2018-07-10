@@ -18,7 +18,7 @@ Para instalar o R, veja este [guia de instalação](R-instalacao.html).
 [The R project for Statistical Computing](http://www.r-project.org):
 página do programa **R**
 
-- [Curso sobre o uso do R](http://www.leg.ufpr.br/doku.php/sofware:material-r) do LEG
+- [Curso sobre o uso do R](http://www.leg.ufpr.br/doku.php/sofware:material-r) do LEG (UFPR)
 - [Analise de dados em R](https://www.analisededados.org/r.html) uma introdução
   ao uso do R
 - [R-Studio](http://www.rstudio.org) um ambiente para facilitar uso do R
@@ -32,9 +32,6 @@ Estes programas não serão abordados no curso, mas podem ser úteis.
 ### Programas para matemática simbólica
 
 - [Wolfram alpha](http://www.wolframalpha.com)
-- [Maxima](http://maxima.sourceforge.net) (e interface
-  [wxmaxima](http://andrejv.github.com/wxmaxima/))
-- [Yacas](http://yacas.sourceforge.net)
 
 ### Planilhas
 
@@ -46,6 +43,3 @@ mas não são recomendadas para estatística.
   e planilha) gratuito
 - [Google sheets](https://www.google.com/sheets/about)
 
-<!-- links -->
-
-[C3SL]: http://www.c3sl.ufpr.br/
