@@ -15,7 +15,8 @@ source("setup_knitr.R")
   <div class="panel-body">
   * Idade (em anos) de uma coorte
   * O número de sobreviventes em determinadas idades
-  * Taxas de mortalidade por idade  * Mortes em intervalos de idade etc
+  * Taxas de mortalidade por idade  
+  * Mortes em intervalos de idade etc
 
 </div>
 </div>

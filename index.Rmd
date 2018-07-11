@@ -11,3 +11,7 @@ source("setup_knitr.R")
 
 [![Build Status](https://travis-ci.org/fernandomayer/ce074.svg?branch=master)](https://travis-ci.org/fernandomayer/ce074)
 
+## Apoio:
+```{r, echo=FALSE, fig.align='center', dpi = 60}
+knitr::include_graphics("img/logos.png")
+```
