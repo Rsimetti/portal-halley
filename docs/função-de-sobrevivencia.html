@@ -11,7 +11,7 @@
 
 
 
-<title>Prêmios</title>
+<title>Função de Sobrevivência</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -395,71 +395,85 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Prêmios</h1>
+<h1 class="title toc-ignore">Função de Sobrevivência</h1>
 
 </div>
 
 
-<div id="premios" class="section level3">
-<h3>Prêmios</h3>
-<p>      A definição geral de Prêmio é a presentada pela SUSEP como o valor correspondente para cada um dos pagamentos que o detentor de uma apólice realiza para cobrir determinado risco. No entanto, pode-se realizar ainda algumas ramificações neste conceito, tal como o Prêmio Puro, o qual trata apenas do risco inerente à seguradora, o Prêmio Nivelado, que nada mais é do que o valor do Prêmio parcelado e o Prêmio Carregado que considera as despesas da seguradora.</p>
-<div id="premio-puro" class="section level4">
-<h4>Prêmio Puro</h4>
-<p>      O <strong>Prêmio Puro</strong> consiste na parcela do prêmio suficiente para se pagar as despesas relacionadas aos riscos assumidos pela seguradora, de maneira que é calculado como o valor esperado das possı́veis indemnizações a serem assumidas pela seguradora sendo, portanto, igual ao prêmio cobrado para cobrir o risco X.</p>
-<p>      Desta forma,como caracterı́stica este prêmio, não protege a seguradora contra indemnizações elevadas e não leva em consideração o intento de obtenção de lucro.</p>
-<p>      O termo <em>puro</em> relaciona-se ao fato de que ao valor considerado não foram adicionados quaisquer cargas técnicas, sendo de gestão ou comercial. Pode ser dividido em duas categorias: o Prêmio Puro Único, o qual consiste na totalidade do sendo paga em uma única parcela pelo segurado, e o Prêmio Puro Nivelado.</p>
-</div>
-<div id="premio-puro-nivelado" class="section level4">
-<h4>Prêmio Puro Nivelado</h4>
-<p>      Não é muito usual considerar que o segurado realize o pagamento do Prêmio em uma única parcela, portanto a grande maioria dos contratos de seguro permite seu pagamento possa ocorrer de forma periódica, sendo os pagamentos normalmente considerando-se a a função de sobrevivência do indivı́duo segurado (REF. Mat atu vid e pens)</p>
-<p>      Podemos considerar um Prêmio Puro de periodicidade anual, em que o segurado paga um prêmio constante (nivelado) P no inı́cio de cada ano enquanto o mesmo sobreviva. O primeiro pagamento realizado será uma fração do prêmio, pois este será capitalizado pela seguradora enquanto o último será correspondente ao próprio prêmio. Assim, se descartamos a aleatoriedade presente no tempo de vida adicional do segurado, o compromisso do mesmo <span class="math inline">\((Y)\)</span> em valor presente será igual a:</p>
-<p><span class="math display">\[ Y = P v^k + P v^{k−1} + · · · + P v^2 + P v + P \]</span> <span class="math display">\[= P (v^k+ v^{k−1}  + · · · + v^2+ v + 1) \]</span></p>
-<p>       Ao inserirmos a aleatoriedade do tempo de vida adicional do segurado e realizando um paralelo com o cálculo para uma anuidade de vitalı́cia temporária:</p>
-<p><span class="math display">\[ ä_{\overline{x}|} = 1 + v + · · · + v^{k−1} = \frac{1 − v^k}{1 − v} \]</span>       Assim:</p>
-<p><span class="math display">\[ Y = P \bigg(\frac{1 − v^{k+1}}{ 1 − v}\bigg) \]</span><br />
-<span class="math display">\[= P ä_{\overline{k+1}|}\]</span><br />
-      De maneira análoga, podemos analisar o compromisso da seguradora <span class="math inline">\((Z)\)</span>. Consideremos, por exemplo um seguro de vida inteiro o qual paga um benefı́cio b ao final do ano de morte do segurado, o compromisso em valor presente do segurador será:</p>
-<p><span class="math display">\[ Z_n = bv^{n+1} = b\bigg(\frac{1}{1+ i}\bigg)^{n+1} \]</span>        Em que n número de anos inteiros de vida adicional do segurado.</p>
-<p>       Através do Princı́pio de Equivalência, em que o valor total do compromissos do segurado no tempo t deve ser igual ao valor total dos compromissos da seguradora no tempo t. Deste modo é possı́vel escolher um valor de prêmio <span class="math inline">\(P\)</span> de modo que:</p>
-<p><span class="math display">\[ \text{Compromissodo Segurado} = \text{Compromissodo Segurador} \]</span></p>
-<p><span class="math display">\[ Y=Z \]</span>        Considerando que <span class="math inline">\(L\)</span> representa a variável aleatória associada a perda da seguradora, o princípio da equivalência estabeleca que <span class="math inline">\(L=Z-Y\)</span>, de modo que:</p>
-<p><span class="math display">\[ E(L) = 0\]</span> <span class="math display">\[ E(Z − Y ) = 0 \]</span> <span class="math display">\[ E(Z) − E(Y ) = 0 \]</span> <span class="math display">\[ E(bv^{n+1}) = E\big(Pä_{\overline{k+1}|}\big) \]</span><br />
-      Assim obtemos o Prêmio Nivelado para pagamentos vitalícios, se no entando, nacessitarmos de pagamentos limitados a um período <span class="math inline">\(k\)</span>, teremos:</p>
-<p><span class="math display">\[ P_{\overline{x:k}|} = \frac{A_x}{ä_{\overline{x:k}|}} \]</span><br />
-### Prêmios Carregados</p>
-<p>       O Prêmio Puro Único e o Prêmio Nivelado, fora calculado o o prêmio de risco, ou seja, o prêmio a ser cobrado do segurado de modo que a seguradora consiga pagar todas as indenizações associadas aos sinistros ocorridos. No entanto, tais prêmios não são capazes de pagar as despesas administrativas e comerciais da seguradora.</p>
-<p>     As despesas associadas à seguradora podem ser divididas quanto sua incidência:</p>
-<ul>
-<li><p>Ocorridas no momento de aquisição, como: comissão de carretagem e despesas com examinadores;</p></li>
-<li><p>Ocorridas durante o perı́odo do contrato, como: despesas operacionais, impostos. Os Prêmios Carregados podem ser divididos em três tipos:</p></li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>Prêmio de Inventário;</li>
-<li>Prêmio ”Zilmerado”;</li>
-<li>Prêmio Comercial ou de tarifa.</li>
-</ol>
-</div>
-<div id="premio-de-inventario" class="section level4">
-<h4>Prêmio de Inventário</h4>
-<p>      Este tipo de Prêmio é mensurado com o intuito de atender às despesas que incidem ao longo do contrato de seguros, como as de administração, além do prêmio de risco.</p>
-<p>      Portanto, temos como objetivo encontrar um prêmio do segurado que, em média, seja suficiente para cobrir os riscos e as despesas da seguradora. Assim, queremos encontrar <span class="math inline">\(P^{\gamma}\)</span> (Prêmio de Inventário) tal que <span class="math inline">\(E(L) = 0\)</span>.</p>
-<p>      De maneira análoga ao apresentado no cálculo do Prêmio Nivelado, podemos obter que:</p>
-<p><span class="math display">\[ P^γ ä_{\overline{x}|} = A_x + γ ä_x \]</span> <span class="math display">\[ P^γ = \frac{Ax + γ ä_x}{ä_x} \]</span><br />
-     Ou ainda, como visto também na literatura:</p>
-<p><span class="math display">\[ P^γ = \frac{\Pi&#39;}{ä_x}\]</span><br />
-#### Prêmio Zilmerado</p>
-<p>      O Prêmio Zilmerado quantifica as despesas de aquisição, e o segurado deseja pagá-la em um perı́odo menor do que o a vigência do contrato. O gasto relativo ao seguro e àdespesa da seguradora no momento de aquisição do contrato pode ser dado como:</p>
-<p><span class="math display">\[ E(Z) = A_x + α \]</span>       Em que α é o gasto inicial da seguradora. O compromisso do segurado pode ser dado como:</p>
-<p><span class="math display">\[ E(Y) = P^α ä_{x:\overline{s}|} + P_{s|} ä_x \]</span><br />
-       Onde <span class="math inline">\(s\)</span> representa um tempo inferior ao perı́odo de cobertura. De maneira análoga ao realizado anteriormente, podemos encontrar:</p>
-<p><span class="math display">\[ P^α = \frac{A_x}{ä_{x:\overline{s}|}} + \frac{\alpha}{ä_{x:\overline{s}|}}+ \frac{P(ä_x - ä_{x:\overline{s}|})}{ä_{x:\overline{s}|}}  \]</span> <span class="math display">\[ P^α = \frac{\alpha}{ä_{x:\overline{s}|}} + P \]</span><br />
-      Onde <span class="math inline">\(P\)</span> representa um Prêmio periódico constante, puro de uma dada modalidade.</p>
-</div>
-<div id="premio-comercial" class="section level4">
-<h4>Prêmio Comercial</h4>
-<p>      O Prêmio Comercial <span class="math inline">\((P^c)\)</span> é o Prêmio que contempla as duas despesas apontadas anteriormente, ou seja, todas as cargas comerciais.</p>
-<p><span class="math display">\[ P^c = P + γ + \frac{α}{ä_{x:\overline{x}|}}\]</span><br />
-      Onde <span class="math inline">\(P\)</span> representa um Prêmio periódico constante, puro de uma dada modalidade.</p>
+<div id="funcao-de-sobrevivencia" class="section level3">
+<h3>Função de Sobrevivência</h3>
+<p>      Esta é uma das principais funções probabilísticas usadas para descrever estudos de sobrevivência. A função de sobrevivência é definida como a probabilidade de uma observação não falhar até um certo tempo t, ou seja, a probabilidade de uma observação sobreviver ao tempo t. Em termos probabilísticos, isto é escrito como:</p>
+<p><span class="math display">\[ S(t) = P(T ≥ t) \]</span><br />
+      Em consequência, a função de distribuição acumulada é definida como a probabilidade de uma observação não sobreviver ao tempo t, isto é, <span class="math inline">\(F(t) = 1 − S(t)\)</span>.<br />
+      Ou seja, em um estudo médico onde o evento de interesse é a morte, a função de sobrevivência fornece a probabilidade de um indivíduo sobreviver além de um tempo <span class="math inline">\(t\)</span>. A função de sobrevivência é uma função não crescente no tempo com as propriedades de que a probabilidade de sobreviver pelo menos ao tempo zero é <span class="math inline">\(1\)</span> e a probabilidade de sobreviver no tempo infinito é <span class="math inline">\(0\)</span>. Para descrever a função de sobrevivência é geralmente utilizada uma representação gráfica de <span class="math inline">\(S(t)\)</span>, ou seja, o gráfico de <span class="math inline">\(S(t)\)</span> versus <span class="math inline">\(t\)</span> que é chamado de curva de sobrevivência. Uma curva íngreme representa razão de sobrevivência baixo ou curto tempo de sobrevivência e uma curva de sobrevivência gradual ou plana representam taxa de sobrevivência alta ou sobrevivência longa.</p>
+<div id="funcao-sobrevivencia" class="section level4">
+<h4>Função Sobrevivência</h4>
+<p>      Considere um indivíduo recém-nascido. A idade de morte desse indivíduo, <span class="math inline">\(X\)</span>, é uma variável aleatória do tipo contínua. Seja <span class="math inline">\(F(x)\)</span> a função de distribuição de <span class="math inline">\(X\)</span></p>
+<p><span class="math display">\[ F(x) = P (X ≤ x ) \text{,   }x ≥0 \]</span> e seja</p>
+<p><span class="math display">\[s(x) = 1 − F(x) = P(X &gt; x )  \text{,   } x ≥ 0 \]</span><br />
+       Vamos assumir sempre que <span class="math inline">\(F(0) = 0\)</span>, que implica em <span class="math inline">\(s(0) = 1\)</span>. A função <span class="math inline">\(s(x)\)</span> é chamada de função de sobrevivência. Para qualquer positivo <span class="math inline">\(x\)</span>, <span class="math inline">\(s(x)\)</span> é a probabilidade de um nascido atingir a idade <span class="math inline">\(x\)</span>. A distribuição de <span class="math inline">\(X\)</span> pode ser definida tanto pela função <span class="math inline">\(F(x)\)</span> como pela função <span class="math inline">\(s(x)\)</span>.</p>
+<p>      Usando as leis de probabilidade, podemos definir as probabilidades sobre a idade de morte em termos da função de sobrevivência ou em termos da função de distribuição. Por exemplo, a probabilidade de um recém-nascido morrer entre as idades <span class="math inline">\(x\)</span> e <span class="math inline">\(z (x &lt; z)\)</span> é:</p>
+<p><span class="math display">\[  P(x &lt; X ≤ ≤ z) = F(z) − F(x) \]</span></p>
+<p>      ou</p>
+<p><span class="math display">\[ P(x &lt; X ≤ z) = s(x) − s(z) \]</span></p>
+<p>       Abaixo apresentaremos um exemplo de função de sobrevivência moldando uma coorte hipotética de 100.000 indivíduos através das probabilidades de sobrevivência e morte da população brasileira para 4 anos distindos (1998, 2004,2008 e 2012).</p>
+<p>      Observe que a função se inicia num determinado momento no tempo, com 100% da população ainda viva e com saúde e nos permite calcular qual a percentagem dessa população ainda viva e com saúde noutros momentos ao longo do tempo.</p>
+<p>      A função de sobrevivência pode ser feita através da tábua de vida, tomaremos como exemplo 5 anos de uma coorte hipotética de 100000 habitantes cuja probabilidade de morte é dada por <span class="math inline">\(\text{ }_n q_x\)</span> . A função <span class="math inline">\(S(t)\)</span> calcula a probabilidadede um individuo de idade <span class="math inline">\(x\)</span> sobreviver até a idade <span class="math inline">\(x+1\)</span>.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><span class="math inline">\(X\)</span></th>
+<th align="center"><span class="math inline">\(\text{ }_n q_x\)</span></th>
+<th align="center"><span class="math inline">\(l_x\)</span></th>
+<th align="center"><span class="math inline">\(S(t)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">0</td>
+<td align="center">0,01260</td>
+<td align="center">100000</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td align="center">1</td>
+<td align="center">0,00093</td>
+<td align="center">98740</td>
+<td align="center">0,9874</td>
+</tr>
+<tr class="odd">
+<td align="center">2</td>
+<td align="center"><strong>0,00065</strong></td>
+<td align="center"><strong>98648</strong></td>
+<td align="center">0,9865</td>
+</tr>
+<tr class="even">
+<td align="center">3</td>
+<td align="center">0,00050</td>
+<td align="center"><strong>98584</strong></td>
+<td align="center"><strong>0,9858</strong></td>
+</tr>
+<tr class="odd">
+<td align="center">4</td>
+<td align="center">0,00040</td>
+<td align="center">98535</td>
+<td align="center">0,9854</td>
+</tr>
+<tr class="even">
+<td align="center">5</td>
+<td align="center">0,00037</td>
+<td align="center">98496</td>
+<td align="center">0,9850</td>
+</tr>
+<tr class="odd">
+<td align="center">6</td>
+<td align="center">…</td>
+<td align="center">…</td>
+<td align="center">…</td>
+</tr>
+</tbody>
+</table>
+<p>      Tomemos como exemplo o segundo ano, se esperamos que <span class="math inline">\(0,00065\)</span> da coorte morram antes de completar <span class="math inline">\(3\)</span> anos uma vez que <span class="math inline">\(98648\)</span> indivíduos estão vivos, calculamos: <span class="math inline">\(0,00065.98648 = 641212\)</span> (são os indivíduos da coorte que sobreviveram até <span class="math inline">\(2\)</span> anos mas morrem antes de completar <span class="math inline">\(3\)</span>), <span class="math inline">\(98648 – 641212 = 98584\)</span> (são os que chegaram vivos ao terceiro ano, sendo então <span class="math inline">\(98584/100000\)</span> a probabilidade de um indivíduo que desta corte chegar vivo ao terceiro ano.</p>
 </div>
 </div>
 <div id="referencias" class="section level3">
