@@ -30,6 +30,7 @@ $$ P(x < X ≤ z) = s(x) − s(z) $$
 
 \ \ \ \ \ \  Abaixo apresentaremos um exemplo de função de sobrevivência moldando uma coorte hipotética de 100.000 indivíduos através das probabilidades de sobrevivência e morte da população brasileira para 4 anos distindos (1998, 2004,2008 e 2012).  
 
+![Fonte: Elaboração própria](img/t2.png)
 
 \ \ \ \ \ \ Observe que a função se inicia num determinado momento no tempo, com 100% da população ainda viva e com saúde e nos permite calcular qual a percentagem dessa população ainda viva e com saúde noutros momentos ao longo do  tempo. 
 
