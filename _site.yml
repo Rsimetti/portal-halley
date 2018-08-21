@@ -37,6 +37,8 @@ navbar:
       - text: "Demografia"
       - text: "Tábuas de vida"
         href: tabuas-mortalidade.html
+      - text: "Tábua de mortalidade IBGE"
+        href: tabua-de-mortalidade-ibge.html
       - text: Função de Sobrevivência
         href: função-de-sobrevivencia.html
       - text: "Prêmios"
