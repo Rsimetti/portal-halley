@@ -6,7 +6,11 @@ title: "Tábua de mortalidade IBGE"
 
 \ \ \ \ \ \ Em cumprimento ao disposto no Art. 2o do Decreto no 3.266, de 29 de novembro de 1999, o IBGE divulga, anualmente, até o dia primeiro de dezembro de cada ano, a Tábua Completa de Mortalidade para o total da população brasileira com data de referência em 1° de julho do ano anterior.   
 
-\ \ \ \ \ \ **“Art. 2°. Compete ao IBGE publicar, anualmente, até o dia primeiro de dezembro, no Diário Oficial da União, a tábua completa de mortalidade para o total da população brasileira referente ao ano anterior. ”**   
+<div class="panel panel-primary">
+  <div class="panel-body">
+  “Art. 2°. Compete ao IBGE publicar, anualmente, até o dia primeiro de dezembro, no Diário Oficial da União, a tábua completa de mortalidade para o total da população brasileira referente ao ano anterior. ”
+</div>
+</div>
 
 \ \ \ \ \ \ A tábua de mortalidade anualmente divulgada tem sido utilizada pelo Ministério da Previdência Social (MPS) como um dos parâmetros necessários na determinação do chamado fator previdenciário para o cálculo dos valores relativos às aposentadorias dos trabalhadores que estão sob o Regime Geral de Previdência Social.  
 
