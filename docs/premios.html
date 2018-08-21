@@ -11,7 +11,7 @@
 
 
 
-<title>Planejamento de experimentos: aspectos gerais</title>
+<title>Prêmios</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -392,46 +392,75 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Planejamento de experimentos: aspectos gerais</h1>
+<h1 class="title toc-ignore">Prêmios</h1>
 
 </div>
 
 
-<div id="consideracoes-gerais" class="section level1">
-<h1>Considerações gerais</h1>
-<p>Experimentos, ao contrário de pesquisas amostrais, envolvem pesquisadores manipulando situações. Ao aplicar tratamentos, o o bjetivo é tirar conclusões sobre o que suas manipulações causaram.</p>
-<div id="propositos-basicos-da-experimentacao" class="section level2">
-<h2>Própositos básicos da experimentação</h2>
+<div id="premios" class="section level3">
+<h3>Prêmios</h3>
+<p>      A definição geral de Prêmio é a presentada pela SUSEP como o valor correspondente para cada um dos pagamentos que o detentor de uma apólice realiza para cobrir determinado risco. No entanto, pode-se realizar ainda algumas ramificações neste conceito, tal como o Prêmio Puro, o qual trata apenas do risco inerente à seguradora, o Prêmio Nivelado, que nada mais é do que o valor do Prêmio parcelado e o Prêmio Carregado que considera as despesas da seguradora.</p>
+<div id="premio-puro" class="section level4">
+<h4>Prêmio Puro</h4>
+<p>      O <strong>Prêmio Puro</strong> consiste na parcela do prêmio suficiente para se pagar as despesas relacionadas aos riscos assumidos pela seguradora, de maneira que é calculado como o valor esperado das possı́veis indemnizações a serem assumidas pela seguradora sendo, portanto, igual ao prêmio cobrado para cobrir o risco X.</p>
+<p>      Desta forma,como caracterı́stica este prêmio, não protege a seguradora contra indemnizações elevadas e não leva em consideração o intento de obtenção de lucro.</p>
+<p>      O termo <em>puro</em> relaciona-se ao fato de que ao valor considerado não foram adicionados quaisquer cargas técnicas, sendo de gestão ou comercial. Pode ser dividido em duas categorias: o Prêmio Puro Único, o qual consiste na totalidade do sendo paga em uma única parcela pelo segurado, e o Prêmio Puro Nivelado.</p>
+</div>
+<div id="premio-puro-nivelado" class="section level4">
+<h4>Prêmio Puro Nivelado</h4>
+<p>      Não é muito usual considerar que o segurado realize o pagamento do Prêmio em uma única parcela, portanto a grande maioria dos contratos de seguro permite seu pagamento possa ocorrer de forma periódica, sendo os pagamentos normalmente considerando-se a a função de sobrevivência do indivı́duo segurado (REF. Mat atu vid e pens)</p>
+<p>      Podemos considerar um Prêmio Puro de periodicidade anual, em que o segurado paga um prêmio constante (nivelado) P no inı́cio de cada ano enquanto o mesmo sobreviva. O primeiro pagamento realizado será uma fração do prêmio, pois este será capitalizado pela seguradora enquanto o último será correspondente ao próprio prêmio. Assim, se descartamos a aleatoriedade presente no tempo de vida adicional do segurado, o compromisso do mesmo <span class="math inline">\((Y)\)</span> em valor presente será igual a:</p>
+<p><span class="math display">\[ Y = P v^k + P v^{k−1} + · · · + P v^2 + P v + P \]</span> <span class="math display">\[= P (v^k+ v^{k−1}  + · · · + v^2+ v + 1) \]</span></p>
+<p>       Ao inserirmos a aleatoriedade do tempo de vida adicional do segurado e realizando um paralelo com o cálculo para uma anuidade de vitalı́cia temporária:</p>
+<p><span class="math display">\[ ä_{\overline{x}|} = 1 + v + · · · + v^{k−1} = \frac{1 − v^k}{1 − v} \]</span>       Assim:</p>
+<p><span class="math display">\[ Y = P \bigg(\frac{1 − v^{k+1}}{ 1 − v}\bigg) \]</span><br />
+<span class="math display">\[= P ä_{\overline{k+1}|}\]</span><br />
+      De maneira análoga, podemos analisar o compromisso da seguradora <span class="math inline">\((Z)\)</span>. Consideremos, por exemplo um seguro de vida inteiro o qual paga um benefı́cio b ao final do ano de morte do segurado, o compromisso em valor presente do segurador será:</p>
+<p><span class="math display">\[ Z_n = bv^{n+1} = b\bigg(\frac{1}{1+ i}\bigg)^{n+1} \]</span>        Em que n número de anos inteiros de vida adicional do segurado.</p>
+<p>       Através do Princı́pio de Equivalência, em que o valor total do compromissos do segurado no tempo t deve ser igual ao valor total dos compromissos da seguradora no tempo t. Deste modo é possı́vel escolher um valor de prêmio <span class="math inline">\(P\)</span> de modo que:</p>
+<p><span class="math display">\[ \text{Compromissodo Segurado} = \text{Compromissodo Segurador} \]</span></p>
+<p><span class="math display">\[ Y=Z \]</span>        Considerando que <span class="math inline">\(L\)</span> representa a variável aleatória associada a perda da seguradora, o princípio da equivalência estabeleca que <span class="math inline">\(L=Z-Y\)</span>, de modo que:</p>
+<p><span class="math display">\[ E(L) = 0\]</span> <span class="math display">\[ E(Z − Y ) = 0 \]</span> <span class="math display">\[ E(Z) − E(Y ) = 0 \]</span> <span class="math display">\[ E(bv^{n+1}) = E\big(Pä_{\overline{k+1}|}\big) \]</span><br />
+      Assim obtemos o Prêmio Nivelado para pagamentos vitalícios, se no entando, nacessitarmos de pagamentos limitados a um período <span class="math inline">\(k\)</span>, teremos:</p>
+<p><span class="math display">\[ P_{\overline{x:k}|} = \frac{A_x}{ä_{\overline{x:k}|}} \]</span><br />
+### Prêmios Carregados</p>
+<p>       O Prêmio Puro Único e o Prêmio Nivelado, fora calculado o o prêmio de risco, ou seja, o prêmio a ser cobrado do segurado de modo que a seguradora consiga pagar todas as indenizações associadas aos sinistros ocorridos. No entanto, tais prêmios não são capazes de pagar as despesas administrativas e comerciais da seguradora.</p>
+<p>     As despesas associadas à seguradora podem ser divididas quanto sua incidência:</p>
 <ul>
-<li>Fornecer comparações válidas dos efeitos de tratamentos</li>
-<li>Forncer informações válidas sobre o relacionamento entre variáveis de</li>
-<li>interesse</li>
+<li><p>Ocorridas no momento de aquisição, como: comissão de carretagem e despesas com examinadores;</p></li>
+<li><p>Ocorridas durante o perı́odo do contrato, como: despesas operacionais, impostos. Os Prêmios Carregados podem ser divididos em três tipos:</p></li>
 </ul>
+<ol style="list-style-type: decimal">
+<li>Prêmio de Inventário;</li>
+<li>Prêmio ”Zilmerado”;</li>
+<li>Prêmio Comercial ou de tarifa.</li>
+</ol>
 </div>
-<div id="requisitos-basicos" class="section level2">
-<h2>Requisitos básicos</h2>
-<ul>
-<li>As condições experimentais devem representar a situação do problema de interesse</li>
-<li>A comparação de tratamentos deve ser livre de outras explicações devido à presença de outras variáveis (<strong>confundimento</strong>)</li>
-<li>A comparação de tratamentos deve ser feita com a menor influência possível de fatores aleatórios</li>
-<li>O nível de incerteza nas conclusões deve ser acessível</li>
-<li>O experimento deve o mais simples possível</li>
-</ul>
+<div id="premio-de-inventario" class="section level4">
+<h4>Prêmio de Inventário</h4>
+<p>      Este tipo de Prêmio é mensurado com o intuito de atender às despesas que incidem ao longo do contrato de seguros, como as de administração, além do prêmio de risco.</p>
+<p>      Portanto, temos como objetivo encontrar um prêmio do segurado que, em média, seja suficiente para cobrir os riscos e as despesas da seguradora. Assim, queremos encontrar <span class="math inline">\(P^{\gamma}\)</span> (Prêmio de Inventário) tal que <span class="math inline">\(E(L) = 0\)</span>.</p>
+<p>      De maneira análoga ao apresentado no cálculo do Prêmio Nivelado, podemos obter que:</p>
+<p><span class="math display">\[ P^γ ä_{\overline{x}|} = A_x + γ ä_x \]</span> <span class="math display">\[ P^γ = \frac{Ax + γ ä_x}{ä_x} \]</span><br />
+     Ou ainda, como visto também na literatura:</p>
+<p><span class="math display">\[ P^γ = \frac{\Pi&#39;}{ä_x}\]</span><br />
+#### Prêmio Zilmerado</p>
+<p>      O Prêmio Zilmerado quantifica as despesas de aquisição, e o segurado deseja pagá-la em um perı́odo menor do que o a vigência do contrato. O gasto relativo ao seguro e àdespesa da seguradora no momento de aquisição do contrato pode ser dado como:</p>
+<p><span class="math display">\[ E(Z) = A_x + α \]</span>       Em que α é o gasto inicial da seguradora. O compromisso do segurado pode ser dado como:</p>
+<p><span class="math display">\[ E(Y) = P^α ä_{x:\overline{s}|} + P_{s|} ä_x \]</span><br />
+       Onde <span class="math inline">\(s\)</span> representa um tempo inferior ao perı́odo de cobertura. De maneira análoga ao realizado anteriormente, podemos encontrar:</p>
+<p><span class="math display">\[ P^α = \frac{A_x}{ä_{x:\overline{s}|}} + \frac{\alpha}{ä_{x:\overline{s}|}}+ \frac{P(ä_x - ä_{x:\overline{s}|})}{ä_{x:\overline{s}|}}  \]</span> <span class="math display">\[ P^α = \frac{\alpha}{ä_{x:\overline{s}|}} + P \]</span><br />
+      Onde <span class="math inline">\(P\)</span> representa um Prêmio periódico constante, puro de uma dada modalidade.</p>
 </div>
-<div id="definicoes-de-termos-chave" class="section level2">
-<h2>Definições de termos chave</h2>
-<ul>
-<li><strong>Fator</strong>: a variável explicativa manipulada ou fixada pelo pesquisador</li>
-<li><strong>Níveis do fator</strong>: os valores que um fator individual pode assumir</li>
-<li><strong>Tratamento</strong>: as combinações dos níveis dos fatores, aplicadas às unidades experimentais</li>
-<li><strong>Unidade observacional</strong>: a entidade física que fornece um único valor da variável resposta</li>
-<li><strong>Unidade experimental</strong>: a unidade (que pode ser uma coleção de unidades observacionais), à qual um único tratamento é aleatoriamente aplicado</li>
-</ul>
+<div id="premio-comercial" class="section level4">
+<h4>Prêmio Comercial</h4>
+<p>      O Prêmio Comercial <span class="math inline">\((P^c)\)</span> é o Prêmio que contempla as duas despesas apontadas anteriormente, ou seja, todas as cargas comerciais.</p>
+<p><span class="math display">\[ P^c = P + γ + \frac{α}{ä_{x:\overline{x}|}}\]</span><br />
+      Onde <span class="math inline">\(P\)</span> representa um Prêmio periódico constante, puro de uma dada modalidade.</p>
 </div>
 </div>
-<div id="os-tres-principios-basicos-da-experimentacao" class="section level1">
-<h1>Os três princípios básicos da experimentação</h1>
-<p>Os três princípios estatísticos básicos da experimentação, introduzidos por RA Fisher em 1935 são: <strong>replicação</strong>, <strong>aleatorização</strong>, e <strong>blocagem</strong>.</p>
+<div id="referencias" class="section level3">
+<h3>Referências</h3>
 </div>
 
 <center>

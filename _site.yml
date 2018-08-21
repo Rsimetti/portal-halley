@@ -37,6 +37,8 @@ navbar:
       - text: "Demografia"
       - text: "Tábuas de vida"
         href: tabuas-mortalidade.html
+      - text: "Prêmios"
+        href: premios.html
       - text: "----------"
       - text: "Experimento"
       - text: "----------"
